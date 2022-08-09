@@ -10,7 +10,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu, windows]
+        os: [ubuntu]
         tls: [schannel, openssl]
         shared: [on, off]
         exclude:
